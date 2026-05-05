@@ -13,9 +13,6 @@ object tenis {
     }
 }
 
-//se utliza el polimorfismo aca porque ambos deportes cuentan con un elemento que se utiliza para dicho deporte, y porque ambos tienen
-//un presupuesto base definido para cada uno.
-
 object judo {
     var cantidadMedallas = 3
 
@@ -38,3 +35,6 @@ object hockey {
       return 500
     }
 }
+
+//se utliza el polimorfismo aca porque todos los deportes cuentan con un elemento que se utiliza para dicho deporte, y porque tienen
+//un presupuesto base definido para cada uno
